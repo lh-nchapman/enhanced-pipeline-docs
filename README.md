@@ -1,5 +1,7 @@
 # Enhanced Hotel Data Pipeline Project
 
+⚠️ **TEMPORARY REPOSITORY** - This is a temporary documentation repository for sharing project details. Please save any needed documents locally and this repository will be deleted after review period.
+
 ## Overview
 
 This repository contains documentation for enhancing Love Holidays' hotel availability and pricing data collection from monthly aggregation to daily granularity.
