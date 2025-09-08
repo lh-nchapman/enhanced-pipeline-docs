@@ -2,12 +2,12 @@
 
 ## Current Situation
 
-Right now, we can only see hotel data in monthly summaries. For example, we might know the average price for hotels in "March 2025" but we can't see differences between March 1st vs March 15th vs March 30th.
+Right now, we can only see hotel data in monthly summaries. For example, we might know the cheapest price for hotels in "March 2025" but we can't see differences between March 1st vs March 15th vs March 30th.
 
 ## What We Want to Change
 
 ### From Monthly to Daily Data
-- **Instead of**: "Hotel ABC averages £500 per person in March"
+- **Instead of**: "Hotel ABC cheapest price is £400 per person in March"
 - **We want**: "Hotel ABC is £400 on March 1st, £600 on March 15th, £450 on March 30th"
 
 ### From One Package Type to Multiple Options

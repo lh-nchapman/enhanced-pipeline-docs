@@ -40,7 +40,7 @@ The pipeline is designed to call existing hotel search APIs with enhanced parame
   .rooms(Collections.singletonList(new Room(2)))  // Fixed party size
   .departureDateMin/Max(broad ranges)  // Not specific dates
   ```
-- Responses provide monthly aggregation, not daily granularity
+- Responses provide monthly cheapest price only, not daily granularity
 - No board basis information in current responses
 
 ## Required API Enhancements
@@ -54,7 +54,7 @@ APIs need to accept configurable parameters:
 
 ### Response Model Changes
 APIs need to return:
-- Daily-level granularity instead of monthly aggregation
+- Daily-level granularity instead of monthly cheapest price only
 - Board basis breakdowns per date/duration/party combination
 - All requested parameter combinations, not just cheapest/summary
 

@@ -7,7 +7,7 @@ Currently, Love Holidays collects hotel availability and pricing data at a month
 ## Data Granularity Improvement
 
 ### Current State
-- **Date Level**: Monthly aggregation only (e.g., "March 2025")
+- **Date Level**: Monthly aggregation - cheapest price for departure month (e.g., "March 2025")
 - **Duration**: Fixed 7-night packages
 - **Party Composition**: 2 adults only 
 - **Board Basis**: Basic pricing without meal plan breakdown
@@ -21,7 +21,7 @@ Currently, Love Holidays collects hotel availability and pricing data at a month
 ## Business Value
 
 ### Improved Decision Making
-- See pricing patterns for specific dates instead of monthly averages
+- See pricing patterns for specific dates instead of monthly cheapest price only
 - Identify weekend vs weeknight pricing differences
 - Understand short-stay vs long-stay demand patterns
 

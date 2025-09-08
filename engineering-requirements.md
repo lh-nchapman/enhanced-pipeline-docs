@@ -32,7 +32,7 @@ The enhanced data pipeline is ready but cannot function because current hotel se
 
 ### 3. Response Model Enhancements
 
-**Current Limitation**: APIs return monthly aggregation only
+**Current Limitation**: APIs return monthly cheapest price only
 ```java
 // Current response granularity
 AvailabilityDetailedResponse {
@@ -42,7 +42,7 @@ AvailabilityDetailedResponse {
 ```
 
 **Required Changes**:
-- Return daily-level data instead of monthly aggregation
+- Return daily-level data instead of monthly cheapest price only
 - Include board basis information in responses (RO, BB, HB, AI)
 - Provide data for all requested parameter combinations
 - Return structured data that supports party composition and duration variants
