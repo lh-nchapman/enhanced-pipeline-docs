@@ -1,17 +1,17 @@
-# Enhanced Hotel Availability & Pricing Pipeline with Supplier Intelligence
+# Enhanced Hotel Availability & Pricing Pipeline with Board Basis Intelligence
 ## Stakeholder Overview
 
 ## Executive Summary
 
-Love Holidays has successfully implemented a comprehensive data pipeline transformation that captures daily-level hotel availability and pricing intelligence with supplier tracking, replacing the existing monthly aggregation approach with granular, actionable insights.
+Love Holidays has successfully implemented a comprehensive data pipeline transformation that captures daily-level hotel availability and pricing intelligence with board basis tracking, replacing the existing monthly aggregation approach with granular, actionable insights.
 
-This initiative delivers a **365x improvement in data granularity** while adding supplier intelligence capabilities that enable competitive analysis and strategic decision-making.
+This initiative delivers a **365x improvement in data granularity** while adding board basis intelligence capabilities that enable meal plan optimization and strategic decision-making.
 
 ## Project Overview
 
-**Mission:** Transform Love Holidays' hotel data collection from basic monthly aggregation to comprehensive daily-level intelligence with supplier tracking, party composition insights, and duration-based pricing analysis.
+**Mission:** Transform Love Holidays' hotel data collection from basic monthly aggregation to comprehensive daily-level intelligence with board basis tracking, party composition insights, and duration-based pricing analysis.
 
-**Result:** A complete data intelligence platform that maintains operational stability while providing unprecedented visibility into hotel availability patterns, pricing strategies, and supplier relationships.
+**Result:** A complete data intelligence platform that maintains operational stability while providing unprecedented visibility into hotel availability patterns, pricing strategies, and meal plan optimization opportunities.
 
 ## Business Value & Transformation
 
@@ -220,7 +220,7 @@ The project spans three critical repositories with coordinated changes:
 | **Couples vs families analysis** | Only 2-adult configurations | Cannot target different customer segments |
 | **Weekend vs weeknight strategies** | 7-night packages only | Cannot develop flexible duration offerings |
 | **Meal plan revenue optimization** | Basic pricing only | Cannot maximize board basis profitability |
-| **Real-time competitive intelligence** | Monthly summaries | Cannot react to daily market changes |
+| **Real-time board basis intelligence** | Monthly summaries | Cannot react to daily meal plan changes |
 
 ### What This Means for Business Stakeholders
 
@@ -228,7 +228,7 @@ The project spans three critical repositories with coordinated changes:
 1. **Enhanced pipeline cannot deliver promised insights** until APIs are upgraded
 2. **Business intelligence capabilities are blocked** by technical constraints
 3. **Revenue optimization opportunities are limited** to existing monthly data
-4. **Competitive advantage timeline is extended** until API development completes
+4. **Revenue optimization timeline is extended** until API development completes
 
 #### Business Value at Risk:
 - **Daily pricing optimization**: Estimated revenue impact of 5-15% improvement in pricing strategy
@@ -296,7 +296,7 @@ The project spans three critical repositories with coordinated changes:
 - **Customer segment-specific insights** for targeted marketing
 - **Daily pricing optimization** capabilities
 - **Board basis revenue maximization** opportunities
-- **Real-time competitive intelligence** for market positioning
+- **Real-time board basis intelligence** for meal plan optimization
 
 ### Recommendations for Stakeholders
 
@@ -321,7 +321,7 @@ The project spans three critical repositories with coordinated changes:
 
 ### Conclusion for Business Stakeholders
 
-The enhanced hotel data intelligence platform represents a **significant competitive advantage opportunity** for Love Holidays. The data processing and analysis infrastructure is complete and ready to deliver unprecedented insights into hotel availability, pricing, and customer behavior.
+The enhanced hotel data intelligence platform represents a **significant revenue optimization opportunity** for Love Holidays. The data processing and analysis infrastructure is complete and ready to deliver unprecedented insights into hotel availability, pricing, and customer behavior.
 
 **The critical path item is enhancing the underlying hotel search APIs** to provide the detailed data this intelligence platform requires. This is a **technical dependency that requires engineering investment** before the business benefits can be realized.
 
