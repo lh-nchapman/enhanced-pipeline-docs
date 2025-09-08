@@ -4,7 +4,9 @@
 
 ## Overview
 
-This repository contains documentation for enhancing Love Holidays' hotel availability and pricing data collection from monthly aggregation to daily granularity.
+This repository contains documentation for enhancing an **existing hotel data pipeline** at Love Holidays. We currently collect hotel availability and pricing data at monthly levels and want to enhance this to daily granularity.
+
+**Our Challenge**: Scope whether this enhancement is technically feasible and estimate implementation effort.
 
 ## Documents
 
@@ -15,13 +17,22 @@ This repository contains documentation for enhancing Love Holidays' hotel availa
 
 ## Current Status
 
-**What's Ready:** Data pipeline infrastructure, BigQuery schemas, and processing logic
-**What's Needed:** Enhanced APIs to provide daily-level data with board basis and party composition support
+**Existing Pipeline**: Successfully collects monthly hotel data
+**Enhancement Proposals**: Infrastructure changes to support daily data (BigQuery schemas, processing logic)
+**Key Question**: Can the underlying hotel search APIs be enhanced to provide the detailed data we need?
 
-## Quick Summary
+## What We're Trying to Achieve
 
-We want to move from:
-- **Current**: Monthly aggregated hotel data, 7-night packages, 2-adult bookings only
-- **Target**: Daily departure date data, flexible durations (2,3,5,7 nights), couples vs families, board basis breakdowns
+**Current Pipeline Collects**:
+- Monthly aggregated hotel data
+- 7-night packages only  
+- 2-adult bookings only
+- Basic pricing without meal plan details
 
-The pipeline is ready, but the underlying hotel search APIs need enhancement to provide this detailed data.
+**Enhanced Pipeline Would Collect**:
+- Daily departure date data
+- Multiple durations (2,3,5,7 nights)
+- Different party types (couples vs families)
+- Board basis breakdowns (Room Only, Bed & Breakfast, etc.)
+
+**The Technical Challenge**: Our existing pipeline infrastructure can be enhanced, but we need to determine if the underlying hotel search APIs can provide this more detailed data.
