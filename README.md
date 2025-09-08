@@ -19,6 +19,12 @@ This repository contains documentation for enhancing an **existing hotel data pi
 
 **Existing Pipeline**: Successfully collects monthly hotel data
 **Enhancement Proposals**: Infrastructure changes to support daily data (BigQuery schemas, processing logic)
+**Proposed Tables**: 4 new enhanced tables with daily granularity:
+- `availability_details_enhanced_staging`
+- `check_price_enhanced_staging` 
+- `availability_summary_enhanced`
+- `pricing_summary_enhanced`
+
 **Key Question**: Can the underlying hotel search APIs be enhanced to provide the detailed data we need?
 
 ## What We're Trying to Achieve
@@ -36,3 +42,18 @@ This repository contains documentation for enhancing an **existing hotel data pi
 - Board basis breakdowns (Room Only, Bed & Breakfast, etc.)
 
 **The Technical Challenge**: Our existing pipeline infrastructure can be enhanced, but we need to determine if the underlying hotel search APIs can provide this more detailed data.
+
+## Example: Daily vs Monthly Data
+
+**Current Monthly Data**:
+```
+Hotel ABC - March 2025: £400 cheapest price, 85% availability
+```
+
+**Proposed Daily Data**:
+```
+Hotel ABC - March 15, 2025:
+- 2 adults, 7 nights: £450/person (Room Only), £520/person (Half Board)
+- 2 adults + 1 child, 7 nights: £380/person (Room Only), £445/person (Half Board)  
+- 2 adults, 3 nights: £485/person (Room Only), £550/person (Half Board)
+```
