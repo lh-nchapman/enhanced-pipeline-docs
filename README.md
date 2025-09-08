@@ -17,9 +17,11 @@ This repository contains documentation for enhancing an **existing hotel data pi
 
 ## Current Status
 
-**Existing Pipeline**: Successfully collects monthly hotel data
-**Enhancement Proposals**: Infrastructure changes to support daily data (BigQuery schemas, processing logic)
-**Proposed Tables**: 4 new enhanced tables with daily granularity:
+**Existing Pipeline**: Successfully collects monthly hotel data into:
+- `lh-data-pipeline-prod.availability_stats.availability_details`
+- `lh-data-pipeline-prod.availability_stats.check_price`
+
+**Enhancement Approach**: Piggyback off the same processes that power the existing tables to create enhanced versions with daily granularity:
 - `availability_details_enhanced_staging`
 - `check_price_enhanced_staging` 
 - `availability_summary_enhanced`
@@ -41,7 +43,7 @@ This repository contains documentation for enhancing an **existing hotel data pi
 - Different party types (couples vs families)
 - Board basis breakdowns (Room Only, Bed & Breakfast, etc.)
 
-**The Technical Challenge**: Our existing pipeline infrastructure can be enhanced, but we need to determine if the underlying hotel search APIs can provide this more detailed data.
+**The Technical Challenge**: We want to leverage the existing processes that already power our monthly data collection, but enhance the underlying APIs to provide more detailed data that we can process into daily granularity tables.
 
 ## Example: Daily vs Monthly Data
 
